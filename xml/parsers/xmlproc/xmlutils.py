@@ -688,9 +688,9 @@ else:
     
 # --- Some useful regexps
 
-namestart="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz_:"+\
-          "ŔÁÂĂÄĹĆÇČÉĘËĚÍÎĎĐŃŇÓÔŐÖŘŮÚŰÜÝŢßŕáâăäĺćçčéęëěíîďđńňóôőöřůúűüýţ˙"
-namechars=namestart+"0123456789.ˇ-"
+namestart="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz_:"
+
+namechars=namestart+"0123456789."
 whitespace="\n\t \r"
 
 reg_ws=re.compile("[\n\t \r]+")
